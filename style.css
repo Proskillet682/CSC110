@@ -10,18 +10,20 @@ html {
   border: 2px solid white;
   text-align: center;
   height: 55px;
-  font-size: 28px;
+  font-size: 24px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   box-shadow:2px 0px 2px black;
   font-weight: bold;
 }
 .header:hover{
-  height: 64px;
-  font-size: 29px;
+  cursor:pointer;
+  background-color: #3a34f4;
+  font-size: 26px;
   transition: 0.5s;
 }
 .container {
 display:flex;
+justify-content: space-around;
 }
 .div1{
   display: flex;
@@ -33,6 +35,7 @@ display:flex;
   box-shadow:2px 2px 2px black;
 }
   .div1:hover{
+    cursor: pointer;
     background-color: #9808aa;
     height: 50px;
     width: 35%;
@@ -40,7 +43,10 @@ display:flex;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     transition: 0.4s;
   }
-
+.click1{
+  height: 1px;
+  width: 1px;
+}
 .div2{
   display: flex;
   justify-content: center;
@@ -51,12 +57,17 @@ display:flex;
   box-shadow:2px 2px 2px black;
 }
 .div2:hover{
+  cursor: pointer;
   background-color: #9808aa;
   height: 50px;
   width: 35%;
   font-size: 20px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   transition: 0.4s;
+}
+.click2{
+  height: 1px;
+  width: 1px;
 }
 .div3{
   display: flex;
@@ -68,6 +79,7 @@ display:flex;
   box-shadow:2px 2px 2px black;
 }
 .div3:hover{
+  cursor: pointer;
   background-color: #9808aa;
   height: 50px;
   width: 35%;
@@ -75,9 +87,21 @@ display:flex;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   transition: 0.4s;
 }
-.body{
+.body1{
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 5px;
   font-size: 20px;
   border: 2px black solid;
-  height: 100%;
-  width: 66%;
-  box-shadow:2px 2px 2px black;}
+  height: auto;
+  width: 100%;
+  box-shadow:2px 2px 2px black;
+  display:block;
+}
+.KissCat img{
+  height:200px;
+  width: 300px;
+}
+.Places img{
+  height: 300px;
+  width: 400px;
+}
